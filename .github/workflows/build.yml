@@ -1,0 +1,24 @@
+name: Zip Datapack
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Zip Datapack
+        run: |
+          zip -r "Ores Recipes-2.0.zip" pack.mcmeta pack.png data/
+
+      - name: Upload Zip Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: Ores Recipes-2.0
+          path: "Ores Recipes-2.0.zip"

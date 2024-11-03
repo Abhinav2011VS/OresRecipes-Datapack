@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ores",
+  "key": {
+    "#": {
+      "item": "minecraft:deeplate"
+    },
+    "@": {
+      "item": "minecraft:raw_gold"
+    }
+  },
+  "pattern": [
+    "@",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:deepslate_gold_ore"
+  }
+}

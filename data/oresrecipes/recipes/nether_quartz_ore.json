@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ores",
+  "key": {
+    "#": {
+      "item": "minecraft:netherrack"
+    },
+    "@": {
+      "item": "minecraft:nether_quartz"
+    }
+  },
+  "pattern": [
+    "@",
+    "#"
+  ],
+  "result": {
+    "item": "minecraft:nether_quartz_ore"
+  }
+}
