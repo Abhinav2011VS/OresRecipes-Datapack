@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
-    },
-    "@": {
-      "item": "minecraft:emerald"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:emerald",
+    "minecraft:stone"
   ],
   "result": {
-    "item": "minecraft:emerald_ore"
+    "id": "minecraft:emerald_ore"
   }
 }

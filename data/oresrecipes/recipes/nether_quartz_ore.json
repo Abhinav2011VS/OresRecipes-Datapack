@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:netherrack"
-    },
-    "@": {
-      "item": "minecraft:nether_quartz"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:quartz",
+    "minecraft:netherrack"
   ],
   "result": {
-    "item": "minecraft:nether_quartz_ore"
+    "id": "minecraft:nether_quartz_ore"
   }
 }

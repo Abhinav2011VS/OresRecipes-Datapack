@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
-    },
-    "@": {
-      "item": "minecraft:raw_iron"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:raw_iron",
+    "minecraft:stone"
   ],
   "result": {
-    "item": "minecraft:iron_ore"
+    "id": "minecraft:iron_ore"
   }
 }

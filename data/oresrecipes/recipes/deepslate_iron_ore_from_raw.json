@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:deeplate"
-    },
-    "@": {
-      "item": "minecraft:raw_iron"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:raw_iron",
+    "minecraft:deepslate"
   ],
   "result": {
-    "item": "minecraft:deepslate_iron_ore"
+    "id": "minecraft:deepslate_iron_ore"
   }
 }

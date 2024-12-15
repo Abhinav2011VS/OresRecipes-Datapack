@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
-    },
-    "@": {
-      "item": "minecraft:diamond"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:diamond",
+    "minecraft:stone"
   ],
   "result": {
-    "item": "minecraft:diamond_ore"
+    "id": "minecraft:diamond_ore"
   }
 }

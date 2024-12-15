@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:netherrack"
-    },
-    "@": {
-      "item": "minecraft:gold_nugget"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:gold_ingot",
+    "minecraft:netherrack"
   ],
   "result": {
-    "item": "minecraft:nether_gold_ore"
+    "id": "minecraft:nether_gold_ore"
   }
 }

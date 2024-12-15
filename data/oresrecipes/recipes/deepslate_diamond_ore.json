@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:deepslate"
-    },
-    "@": {
-      "item": "minecraft:diamond"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:diamond",
+    "minecraft:deepslate"
   ],
   "result": {
-    "item": "minecraft:deepslate_diamond_ore"
+    "id": "minecraft:deepslate_diamond_ore"
   }
 }

@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:deesplate"
-    },
-    "@": {
-      "item": "minecraft:redstone"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:redstone",
+    "minecraft:deepslate"
   ],
   "result": {
-    "item": "minecraft:deepslate_redstone_ore"
+    "id": "minecraft:deepslate_redstone_ore"
   }
 }

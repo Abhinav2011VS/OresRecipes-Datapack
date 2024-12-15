@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:crismon_stem"
-    },
-    "@": {
-      "item": "minecraft:netherite_scrap"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:netherite_scrap",
+    "minecraft:crimson_stem"
   ],
   "result": {
-    "item": "minecraft:ancient_debris"
+    "id": "minecraft:ancient_debris"
   }
 }

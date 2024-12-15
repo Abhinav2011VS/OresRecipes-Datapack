@@ -1,20 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
+  "group": "to_ore",
   "category": "misc",
-  "group": "ores",
-  "key": {
-    "#": {
-      "item": "minecraft:stone"
-    },
-    "@": {
-      "item": "minecraft:coal"
-    }
-  },
-  "pattern": [
-    "@",
-    "#"
+  "ingredients": [
+    "minecraft:coal",
+    "minecraft:stone"
   ],
   "result": {
-    "item": "minecraft:coal_ore"
+    "id": "minecraft:coal_ore"
   }
 }

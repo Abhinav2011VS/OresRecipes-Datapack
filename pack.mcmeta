@@ -3,11 +3,12 @@
     "pack_format": 15,
     "description": "Ores Recipes! Adds Recipes to craft ores.",
     "supported_formats": [
+      18,
       26,
       41,
       48,
       57,
-      58
+      61
     ]
   }
 }
